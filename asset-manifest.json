@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Patrycja_Bien_Web_Wroclaw/static/css/main.ee224daf.css",
+    "main.js": "/Patrycja_Bien_Web_Wroclaw/static/js/main.5a1a3951.js",
+    "static/js/453.92ce18d7.chunk.js": "/Patrycja_Bien_Web_Wroclaw/static/js/453.92ce18d7.chunk.js",
+    "index.html": "/Patrycja_Bien_Web_Wroclaw/index.html",
+    "main.ee224daf.css.map": "/Patrycja_Bien_Web_Wroclaw/static/css/main.ee224daf.css.map",
+    "main.5a1a3951.js.map": "/Patrycja_Bien_Web_Wroclaw/static/js/main.5a1a3951.js.map",
+    "453.92ce18d7.chunk.js.map": "/Patrycja_Bien_Web_Wroclaw/static/js/453.92ce18d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee224daf.css",
+    "static/js/main.5a1a3951.js"
+  ]
+}
