@@ -10,7 +10,6 @@
 # React App Github Pages Version
 
 ## How to run
-### Enter pages branch
 ### Enter https://patrycja-bien.github.io/Patrycja_Bien_Web_Wroclaw/
 ### Navigate through pages
 
