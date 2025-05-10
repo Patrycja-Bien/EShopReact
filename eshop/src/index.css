@@ -1,0 +1,82 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  font-size: 50px;
+  color: black;
+}
+
+a {
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: lightcoral;
+}
+
+body {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 50px;
+}
+
+table, tbody, thead, th, tr {
+  padding: 20 px;
+  margin: 20 px;
+  text-align: center;
+  font-size: 30px;
+}
+
+table {
+  border-style: solid;
+  border-spacing: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  background-color: lightcoral;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+button {
+  background-color: lightcoral;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+.alert {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  background-color: rgb(242, 200, 200);
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-self: center;
+  z-index: 1000;
+}
+
+.alert.hide {
+  opacity: 0;
+  pointer-events: none;
+}
