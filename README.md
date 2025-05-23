@@ -1,7 +1,7 @@
 # React App Run from File Version
 
 ## How to run
-### `git clone https://github.com/Patrycja-Bien/Patrycja_Bien_Web_Wroclaw.git`
+### `git clone https://github.com/Patrycja-Bien/React_EShop.git`
 ### `git checkout main`
 ### `npm install react`
 ### `npm start`
@@ -10,7 +10,7 @@
 # React App Github Pages Version
 
 ## How to run
-### Enter https://patrycja-bien.github.io/Patrycja_Bien_Web_Wroclaw/
+### Enter https://patrycja-bien.github.io/React_EShop/
 ### Navigate through pages
 
 # Technologies
