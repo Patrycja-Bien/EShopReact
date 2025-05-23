@@ -5,12 +5,14 @@ import Cart from './screens/Cart';
 import OrderSummary from './screens/OrderSummary';
 import { FC } from 'react';
 import { useCart } from './components/CartContext';
+import OrderConfirmation from './screens/OrderConfirmation';
 
 const AppInner: FC = () => {
   const location = useLocation();
   const isProds = location.pathname === '/';
   const isCart = location.pathname === '/cart';
   const isOrderSum = location.pathname === '/ordersum';
+  const isOrderConf = location.pathname === '/orderconf';
   const { cart } = useCart();
 
   return (
@@ -19,6 +21,7 @@ const AppInner: FC = () => {
         <Route path="/" element={<Products />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/ordersum" element={<OrderSummary />} />
+        <Route path="/orderconf" element={<OrderConfirmation />} />
       </Routes>
     <nav>
       {(!isOrderSum && !isProds) && (
@@ -27,7 +30,7 @@ const AppInner: FC = () => {
       
       {!isCart && (
         <Link to="/cart">
-          {isOrderSum ? 'Powrót do koszyka' : 'Koszyk'}
+          {isOrderSum || isOrderConf ? 'Powrót do koszyka' : 'Koszyk'}
         </Link>
       )}
 

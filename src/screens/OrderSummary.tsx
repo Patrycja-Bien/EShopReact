@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useCart } from '../components/CartContext';
 import CartTable from '../components/CartTable';
 
 const OrderSummary: React.FC = () => {
   const { cart } = useCart();
+  const navigate = useNavigate();
 
   const handleSubmit = () => {
     const orderData = {
@@ -15,7 +17,7 @@ const OrderSummary: React.FC = () => {
       ),
     };
     localStorage.setItem('orderData', JSON.stringify(orderData));
-    window.location.href = '/orderconf.html';
+    navigate('/orderconf');
   };
 
   return (
